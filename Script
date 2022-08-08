@@ -1,0 +1,500 @@
+local player = game.Players.LocalPlayer.Character
+local ScreenGui = Instance.new("ScreenGui")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Cay = Instance.new("TextButton")
+local Crow = Instance.new("TextButton")
+local CastawayPoint = Instance.new("TextButton")
+local BayofEyes = Instance.new("TextButton")
+local Fisher = Instance.new("TextButton")
+local Oni = Instance.new("TextButton")
+local Ethereal = Instance.new("TextButton")
+local Marine = Instance.new("TextButton")
+local Roar = Instance.new("TextButton")
+local Treasure = Instance.new("TextButton")
+local Whistle = Instance.new("TextButton")
+local Howler = Instance.new("TextButton")
+local Moonrise = Instance.new("TextButton")
+local Ancient = Instance.new("TextButton")
+local Shipwreck = Instance.new("TextButton")
+local MastBreaker = Instance.new("TextButton")
+local Bowspirit = Instance.new("TextButton")
+local Barrier = Instance.new("TextButton")
+local Wishbone = Instance.new("TextButton")
+local Salt = Instance.new("TextButton")
+local Pointed = Instance.new("TextButton")
+local Hunter = Instance.new("TextButton")
+local Marooner = Instance.new("TextButton")
+local Cloud = Instance.new("TextButton")
+local Serpent = Instance.new("TextButton")
+local Rocky = Instance.new("TextButton")
+local Spire = Instance.new("TextButton")
+local Snakescale = Instance.new("TextButton")
+local Dragon = Instance.new("TextButton")
+function caytp()
+	player.HumanoidRootPart.CFrame = CFrame.new(15624, 35.1393, 9749.88)
+end
+function crowtp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-3717.96, 17.8222, 1328.24)
+end
+function castpoint()
+	player.HumanoidRootPart.CFrame = CFrame.new(932.223, 7.09992, -250.724)
+end
+function baytp()
+	player.HumanoidRootPart.CFrame = CFrame.new(13745.2, 10.8403, -5998.94)
+end
+function fishertp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-13759.3, 15.1717, -7728.05)
+end
+function onitp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-9103.32, 60.2545, 2364.13)
+end
+function etherealtp()
+	player.HumanoidRootPart.CFrame = CFrame.new(8693.12, 66.5861, 7441.81)
+end
+function dragontp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-5980, -10, 8850)
+end
+function marinetp()
+	player.HumanoidRootPart.CFrame = CFrame.new(9022.53, 5.2194, 2822.83)
+end
+function roartp()
+	player.HumanoidRootPart.CFrame = CFrame.new(14506.4, 100.4572, 1933.79)
+end
+function treasuretp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-6536.62, 80.7061, -3369.47)
+end
+function whistletp()
+	player.HumanoidRootPart.CFrame = CFrame.new(12872.4, 22.3845, 7822.35)
+end
+function howltp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-1717.41, 10.7274, 6103.01)
+end
+function moonrisetp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-5774.81, 10.7174, 3893.71)
+end
+function ancienttp()
+	player.HumanoidRootPart.CFrame = CFrame.new(16095, 70.5688, -2954.1)
+end
+function shipwrecktp()
+	player.HumanoidRootPart.CFrame = CFrame.new(2890.03, 10.8192, 3787.75)
+end
+function mastbreakertp()
+	player.HumanoidRootPart.CFrame = CFrame.new(10352.7, 53.5795, -8060.46)
+end
+function bowspirittp()
+	player.HumanoidRootPart.CFrame = CFrame.new(5247.91, 37.4107, -407.296)
+end
+function barriertp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-10939.9, 36.6116, -234.785)
+end
+function wishbonetp()
+	player.HumanoidRootPart.CFrame = CFrame.new(1646.17, 4.4407, 7673.33)
+end
+function salttp()
+	player.HumanoidRootPart.CFrame = CFrame.new(4784.14, 50.92816, 9938.24)
+end
+function pointyrocktp()
+	player.HumanoidRootPart.CFrame = CFrame.new(20.4306, -53.682, -4608.97)
+end
+function maroonertp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-12832.2, 19.5326, -4161.33)
+end
+function cloudtp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-2900.78, 644.229, -7557.04)
+end
+function serpenttp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-15696.8, -62.1163, 63.6899)
+end
+function rockyshoretp()
+	player.HumanoidRootPart.CFrame = CFrame.new(10779.4, 82.9377, -2811.81)
+end
+function spiretp()
+	player.HumanoidRootPart.CFrame = CFrame.new(-13950.5, 474.37, 4820.39)
+end
+function snakescaletp()
+	player.HumanoidRootPart.CFrame = CFrame.new(5397.07, 5.8546, -4600.58)
+end
+function huntertp()
+	player.HumanoidRootPart.CFrame = CFrame.new(4537.92, 80.4053, -8199.62)
+end
+
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderSizePixel = 2
+TextLabel.Position = UDim2.new(0.736070573, 0, 0.52671504, 0)
+TextLabel.Size = UDim2.new(0, 340, 0, 54)
+TextLabel.Font = Enum.Font.SourceSansItalic
+TextLabel.Text = "Winds Of Fortune"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 57.000
+TextLabel.TextWrapped = true
+
+ScrollingFrame.Parent = ScreenGui
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BorderSizePixel = 2
+ScrollingFrame.Position = UDim2.new(0.736070573, 0, 0.594409645, 0)
+ScrollingFrame.Size = UDim2.new(0.00774593325, 330, -0.225050807, 440)
+
+Cay.Name = "Cay"
+Cay.Parent = ScrollingFrame
+Cay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cay.Size = UDim2.new(0, 330, 0, 50)
+Cay.Font = Enum.Font.SourceSansBold
+Cay.Text = "Cutthroat's Cay"
+Cay.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cay.TextScaled = true
+Cay.TextSize = 34.000
+Cay.TextWrapped = true
+Cay.MouseButton1Up:Connect(caytp)
+
+Crow.Name = "Crow"
+Crow.Parent = ScrollingFrame
+Crow.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Crow.Position = UDim2.new(0, 0, 0.03125, 0)
+Crow.Size = UDim2.new(0, 330, 0, 50)
+Crow.Font = Enum.Font.SourceSansBold
+Crow.Text = "Crow's Nest"
+Crow.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crow.TextScaled = true
+Crow.TextSize = 34.000
+Crow.TextWrapped = true
+Crow.MouseButton1Up:Connect(crowtp)
+
+CastawayPoint.Name = "Castaway Point"
+CastawayPoint.Parent = ScrollingFrame
+CastawayPoint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CastawayPoint.Position = UDim2.new(0, 0, 0.0625, 0)
+CastawayPoint.Size = UDim2.new(0, 330, 0, 50)
+CastawayPoint.Font = Enum.Font.SourceSansBold
+CastawayPoint.Text = "Castaway Point"
+CastawayPoint.TextColor3 = Color3.fromRGB(255, 255, 255)
+CastawayPoint.TextScaled = true
+CastawayPoint.TextSize = 34.000
+CastawayPoint.TextWrapped = true
+CastawayPoint.MouseButton1Up:Connect(castpoint)
+
+BayofEyes.Name = "BayofEyes"
+BayofEyes.Parent = ScrollingFrame
+BayofEyes.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+BayofEyes.Position = UDim2.new(0, 0, 0.09375, 0)
+BayofEyes.Size = UDim2.new(0, 330, 0, 50)
+BayofEyes.Font = Enum.Font.SourceSansBold
+BayofEyes.Text = "Bay of Eyes"
+BayofEyes.TextColor3 = Color3.fromRGB(255, 255, 255)
+BayofEyes.TextScaled = true
+BayofEyes.TextSize = 34.000
+BayofEyes.TextWrapped = true
+BayofEyes.MouseButton1Up:Connect(baytp)
+
+Fisher.Name = "Fisher"
+Fisher.Parent = ScrollingFrame
+Fisher.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fisher.Position = UDim2.new(0, 0, 0.125, 0)
+Fisher.Size = UDim2.new(0, 330, 0, 50)
+Fisher.Font = Enum.Font.SourceSansBold
+Fisher.Text = "Fisherman's Haven"
+Fisher.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fisher.TextSize = 43.000
+Fisher.TextWrapped = true
+Fisher.MouseButton1Up:Connect(fishertp)
+
+Oni.Name = "Oni"
+Oni.Parent = ScrollingFrame
+Oni.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Oni.Position = UDim2.new(0, 0, 0.15625, 0)
+Oni.Size = UDim2.new(0, 330, 0, 50)
+Oni.Font = Enum.Font.SourceSansBold
+Oni.Text = "Oni Isle"
+Oni.TextColor3 = Color3.fromRGB(255, 255, 255)
+Oni.TextScaled = true
+Oni.TextSize = 46.000
+Oni.TextWrapped = true
+Oni.MouseButton1Up:Connect(onitp)
+
+Ethereal.Name = "Ethereal"   
+Ethereal.Parent = ScrollingFrame
+Ethereal.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ethereal.Position = UDim2.new(0, 0, 0.874375045, 0)
+Ethereal.Size = UDim2.new(0, 330, 0, 50)
+Ethereal.Font = Enum.Font.SourceSansBold
+Ethereal.Text = "Ethereal Springs"
+Ethereal.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ethereal.TextSize = 43.000
+Ethereal.TextWrapped = true
+Ethereal.MouseButton1Up:Connect(etherealtp)
+
+Marine.Name = "Marine"
+Marine.Parent = ScrollingFrame
+Marine.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Marine.Position = UDim2.new(0, 0, 0.1875, 0)
+Marine.Size = UDim2.new(0, 330, 0, 50)
+Marine.Font = Enum.Font.SourceSansBold
+Marine.Text = "Marine's Post"
+Marine.TextColor3 = Color3.fromRGB(255, 255, 255)
+Marine.TextScaled = true
+Marine.TextSize = 46.000
+Marine.TextWrapped = true
+Marine.MouseButton1Up:Connect(marinetp)
+
+Roar.Name = "Roar"
+Roar.Parent = ScrollingFrame
+Roar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Roar.Position = UDim2.new(1.3038516e-08, 0, 0.21875, 0)
+Roar.Size = UDim2.new(0, 330, 0, 50)
+Roar.Font = Enum.Font.SourceSansBold
+Roar.Text = "Roaring Peak"
+Roar.TextColor3 = Color3.fromRGB(255, 255, 255)
+Roar.TextScaled = true
+Roar.TextSize = 46.000
+Roar.TextWrapped = true
+Roar.MouseButton1Up:Connect(roartp)
+
+Treasure.Name = "Treasure"
+Treasure.Parent = ScrollingFrame
+Treasure.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Treasure.Position = UDim2.new(0, 0, 0.25, 0)
+Treasure.Size = UDim2.new(0, 330, 0, 50)
+Treasure.Font = Enum.Font.SourceSansBold
+Treasure.Text = "Treasure Falls"
+Treasure.TextColor3 = Color3.fromRGB(255, 255, 255)
+Treasure.TextScaled = true
+Treasure.TextSize = 46.000
+Treasure.TextWrapped = true
+Treasure.MouseButton1Up:Connect(treasuretp)
+
+Whistle.Name = "Whistle"
+Whistle.Parent = ScrollingFrame
+Whistle.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Whistle.Position = UDim2.new(0, 0, 0.28125, 0)
+Whistle.Size = UDim2.new(0, 330, 0, 50)
+Whistle.Font = Enum.Font.SourceSansBold
+Whistle.Text = "Whistlestone Point"
+Whistle.TextColor3 = Color3.fromRGB(255, 255, 255)
+Whistle.TextSize = 43.000
+Whistle.TextWrapped = true
+Whistle.MouseButton1Up:Connect(whistletp)
+
+Howler.Name = "Howler"
+Howler.Parent = ScrollingFrame
+Howler.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Howler.Position = UDim2.new(0, 0, 0.3125, 0)
+Howler.Size = UDim2.new(0, 330, 0, 50)
+Howler.Font = Enum.Font.SourceSansBold
+Howler.Text = "Fort Howler"
+Howler.TextColor3 = Color3.fromRGB(255, 255, 255)
+Howler.TextSize = 43.000
+Howler.TextWrapped = true
+Howler.MouseButton1Up:Connect(howltp)
+
+Moonrise.Name = "Moonrise"
+Moonrise.Parent = ScrollingFrame
+Moonrise.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Moonrise.Position = UDim2.new(0, 0, 0.34375, 0)
+Moonrise.Size = UDim2.new(0, 330, 0, 50)
+Moonrise.Font = Enum.Font.SourceSansBold
+Moonrise.Text = "Moonrise Cove"
+Moonrise.TextColor3 = Color3.fromRGB(255, 255, 255)
+Moonrise.TextSize = 43.000
+Moonrise.TextWrapped = true
+Moonrise.MouseButton1Up:Connect(moonrisetp)
+
+Ancient.Name = "Ancient"
+Ancient.Parent = ScrollingFrame
+Ancient.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Ancient.Position = UDim2.new(0, 0, 0.375, 0)
+Ancient.Size = UDim2.new(0, 330, 0, 50)
+Ancient.Font = Enum.Font.SourceSansBold
+Ancient.Text = "Ancient Isle"
+Ancient.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ancient.TextSize = 43.000
+Ancient.TextWrapped = true
+Ancient.MouseButton1Up:Connect(ancienttp)
+
+Shipwreck.Name = "Shipwreck"
+Shipwreck.Parent = ScrollingFrame
+Shipwreck.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shipwreck.Position = UDim2.new(0, 0, 0.40625, 0)
+Shipwreck.Size = UDim2.new(0, 330, 0, 50)
+Shipwreck.Font = Enum.Font.SourceSansBold
+Shipwreck.Text = "Shipwreck Lagoon"
+Shipwreck.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shipwreck.TextSize = 43.000
+Shipwreck.TextWrapped = true
+Shipwreck.MouseButton1Up:Connect(shipwrecktp)
+
+MastBreaker.Name = "Mast Breaker"
+MastBreaker.Parent = ScrollingFrame
+MastBreaker.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MastBreaker.Position = UDim2.new(0, 0, 0.4375, 0)
+MastBreaker.Size = UDim2.new(0, 330, 0, 50)
+MastBreaker.Font = Enum.Font.SourceSansBold
+MastBreaker.Text = "Mast Breaker Cliffs"
+MastBreaker.TextColor3 = Color3.fromRGB(255, 255, 255)
+MastBreaker.TextSize = 43.000
+MastBreaker.TextWrapped = true
+MastBreaker.MouseButton1Up:Connect(mastbreakertp)
+
+Bowspirit.Name = "Bowspirit"
+Bowspirit.Parent = ScrollingFrame
+Bowspirit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Bowspirit.Position = UDim2.new(0, 0, 0.46875, 0)
+Bowspirit.Size = UDim2.new(0, 330, 0, 50)
+Bowspirit.Font = Enum.Font.SourceSansBold
+Bowspirit.Text = "Bowspirit Point"
+Bowspirit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bowspirit.TextSize = 43.000
+Bowspirit.TextWrapped = true
+Bowspirit.MouseButton1Up:Connect(bowspirittp)
+
+Barrier.Name = "Barrier"
+Barrier.Parent = ScrollingFrame
+Barrier.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Barrier.Position = UDim2.new(0, 0, 0.5, 0)
+Barrier.Size = UDim2.new(0, 330, 0, 50)
+Barrier.Font = Enum.Font.SourceSansBold
+Barrier.Text = "Barrier Isle"
+Barrier.TextColor3 = Color3.fromRGB(255, 255, 255)
+Barrier.TextSize = 43.000
+Barrier.TextWrapped = true
+Barrier.MouseButton1Up:Connect(barriertp)
+
+Wishbone.Name = "Wishbone"
+Wishbone.Parent = ScrollingFrame
+Wishbone.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Wishbone.Position = UDim2.new(0, 0, 0.53125, 0)
+Wishbone.Size = UDim2.new(0, 330, 0, 50)
+Wishbone.Font = Enum.Font.SourceSansBold
+Wishbone.Text = "Wishbone Shoal"
+Wishbone.TextColor3 = Color3.fromRGB(255, 255, 255)
+Wishbone.TextSize = 43.000
+Wishbone.TextWrapped = true
+Wishbone.MouseButton1Up:Connect(wishbonetp)
+
+Salt.Name = "Salt"
+Salt.Parent = ScrollingFrame
+Salt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Salt.Position = UDim2.new(0, 0, 0.5625, 0)
+Salt.Size = UDim2.new(0, 330, 0, 50)
+Salt.Font = Enum.Font.SourceSansBold
+Salt.Text = "Salt Harbor"
+Salt.TextColor3 = Color3.fromRGB(255, 255, 255)
+Salt.TextSize = 43.000
+Salt.TextWrapped = true
+Salt.MouseButton1Up:Connect(salttp)
+
+Pointed.Name = "Pointed"
+Pointed.Parent = ScrollingFrame
+Pointed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Pointed.Position = UDim2.new(0, 0, 0.59375, 0)
+Pointed.Size = UDim2.new(0, 330, 0, 50)
+Pointed.Font = Enum.Font.SourceSansBold
+Pointed.Text = "The Pointed Rock"
+Pointed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Pointed.TextSize = 43.000
+Pointed.TextWrapped = true
+Pointed.MouseButton1Up:Connect(pointyrocktp)
+
+Hunter.Name = "Hunter"
+Hunter.Parent = ScrollingFrame
+Hunter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hunter.Position = UDim2.new(0, 0, 0.8125, 0)
+Hunter.Size = UDim2.new(0, 330, 0, 50)
+Hunter.Font = Enum.Font.SourceSansBold
+Hunter.Text = "Hunter's Guild"
+Hunter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hunter.TextSize = 43.000
+Hunter.TextWrapped = true
+Hunter.MouseButton1Up:Connect(huntertp)
+
+Marooner.Name = "Marooner"
+Marooner.Parent = ScrollingFrame
+Marooner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Marooner.Position = UDim2.new(0, 0, 0.625, 0)
+Marooner.Size = UDim2.new(0, 330, 0, 50)
+Marooner.Font = Enum.Font.SourceSansBold
+Marooner.Text = "Marooner's Ground"
+Marooner.TextColor3 = Color3.fromRGB(255, 255, 255)
+Marooner.TextSize = 43.000
+Marooner.TextWrapped = true
+Marooner.MouseButton1Up:Connect(maroonertp)
+
+Cloud.Name = "Cloud"
+Cloud.Parent = ScrollingFrame
+Cloud.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Cloud.Position = UDim2.new(0, 0, 0.65625, 0)
+Cloud.Size = UDim2.new(0, 330, 0, 50)
+Cloud.Font = Enum.Font.SourceSansBold
+Cloud.Text = "Cloud's Reach"
+Cloud.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cloud.TextSize = 43.000
+Cloud.TextWrapped = true
+Cloud.MouseButton1Up:Connect(cloudtp)
+
+Serpent.Name = "Serpent"
+Serpent.Parent = ScrollingFrame
+Serpent.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Serpent.Position = UDim2.new(0, 0, 0.6875, 0)
+Serpent.Size = UDim2.new(0, 330, 0, 50)
+Serpent.Font = Enum.Font.SourceSansBold
+Serpent.Text = "Serpent's Den"
+Serpent.TextColor3 = Color3.fromRGB(255, 255, 255)
+Serpent.TextSize = 43.000
+Serpent.TextWrapped = true
+Serpent.MouseButton1Up:Connect(serpenttp)
+
+Rocky.Name = "Rocky"
+Rocky.Parent = ScrollingFrame
+Rocky.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Rocky.Position = UDim2.new(0, 0, 0.71875, 0)
+Rocky.Size = UDim2.new(0, 330, 0, 50)
+Rocky.Font = Enum.Font.SourceSansBold
+Rocky.Text = "Rocky Shores"
+Rocky.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rocky.TextSize = 43.000
+Rocky.TextWrapped = true
+Rocky.MouseButton1Up:Connect(rockyshoretp)
+
+Spire.Name = "Spire"
+Spire.Parent = ScrollingFrame
+Spire.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Spire.Position = UDim2.new(0, 0, 0.75, 0)
+Spire.Size = UDim2.new(0, 330, 0, 50)
+Spire.Font = Enum.Font.SourceSansBold
+Spire.Text = "The Great Spire"
+Spire.TextColor3 = Color3.fromRGB(255, 255, 255)
+Spire.TextSize = 43.000
+Spire.TextWrapped = true
+Spire.MouseButton1Up:Connect(spiretp)
+
+Snakescale.Name = "Snakescale"
+Snakescale.Parent = ScrollingFrame
+Snakescale.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Snakescale.Position = UDim2.new(0, 0, 0.78125, 0)
+Snakescale.Size = UDim2.new(0, 330, 0, 50)
+Snakescale.Font = Enum.Font.SourceSansBold
+Snakescale.Text = "Snakescale Marsh"
+Snakescale.TextColor3 = Color3.fromRGB(255, 255, 255)
+Snakescale.TextSize = 43.000
+Snakescale.TextWrapped = true
+Snakescale.MouseButton1Up:Connect(snakescaletp)
+
+Dragon.Name = "Dragon"
+Dragon.Parent = ScrollingFrame
+Dragon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Dragon.Position = UDim2.new(0, 0, 0.843124986, 0)
+Dragon.Size = UDim2.new(0, 330, 0, 50)
+Dragon.Font = Enum.Font.SourceSansBold
+Dragon.Text = "Dragonlands"
+Dragon.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dragon.TextScaled = true
+Dragon.TextSize = 46.000
+Dragon.TextWrapped = true
+Dragon.MouseButton1Up:Connect(dragontp)
