@@ -74,7 +74,7 @@ function moonrisetp()
 	player.HumanoidRootPart.CFrame = CFrame.new(-5774.81, 10.7174, 3893.71)
 end
 function ancienttp()
-	player.HumanoidRootPart.CFrame = CFrame.new(16095, 70.5688, -2954.1)
+	player.HumanoidRootPart.CFrame = CFrame.new(16095, 80.5688, -2954.1)
 end
 function shipwrecktp()
 	player.HumanoidRootPart.CFrame = CFrame.new(2890.03, 10.8192, 3787.75)
@@ -95,7 +95,7 @@ function salttp()
 	player.HumanoidRootPart.CFrame = CFrame.new(4784.14, 50.92816, 9938.24)
 end
 function pointyrocktp()
-	player.HumanoidRootPart.CFrame = CFrame.new(20.4306, -53.682, -4608.97)
+	player.HumanoidRootPart.CFrame = CFrame.new(20.4306, 20.682, -4608.97)
 end
 function maroonertp()
 	player.HumanoidRootPart.CFrame = CFrame.new(-12832.2, 19.5326, -4161.33)
@@ -498,3 +498,5 @@ Dragon.TextScaled = true
 Dragon.TextSize = 46.000
 Dragon.TextWrapped = true
 Dragon.MouseButton1Up:Connect(dragontp)
+
+print("outware#8647")
